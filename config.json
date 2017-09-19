@@ -1,0 +1,8 @@
+{
+    "HOST" : "127.0.0.1",
+    "DATA_PORT": 8080,
+    "CONTROL_PORT": 8070,                     
+    "UPLOAD_DIR": "files/",     
+    "MAX_FILE_SIZE": 52428800
+}
+

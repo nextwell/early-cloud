@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+		<meta charset=utf-8 />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+	  	<div id="head">
+	  		<a href="index.html" id="akite-cloud">Akite cloud</a>
+  		</div>
+  		<div id="link-box">
+  			<a href="index.html" class="links">Upload</a>
+  			<a href="download.html" class="links">Download</a>
+  		</div>
+
+  		<div id="data">
+  			<img id = "cloud_image" src="img/cloud.jpg">
+  			<input type="file" id="files" type="file" class="file_d">
+        <label for="files" id="download_button"><span id="text">Выберите файл</span></label>
+  		  <label id ="size"><span id="text_size">Размер файла не должен превышать 50 МБ</span></label>	
+  		</div>
+
+
+      <div id="file_inf">
+        <label id='file_name' class='files_opt'>Имя файла:</label><br><br><br>
+        <strong><span class='options' id="name_of">         </span></strong><br><br>
+        <label id='file_type' class='files_opt'>Тип файла:</label><br><br><br>
+        <strong><span class='options' id="type_of">          </span></strong><br><br>
+        <label id='file_size' class='files_opt'>Размер файла:</label><br><br><br>
+        <strong><span class='options' id="size_of">          </span></strong>
+        <button id="upload_file">Загрузить</button>
+      </div>
+
+
+
+      <div id='result'>
+      <label><span id='unique_label'>Уникальный аутентификатор файла:</span></label>
+      <strong><input type='text' id='unique_key' readonly></strong>
+      </div>
+
+  		<script src="js/jquery.js"></script>
+      <script src="js/upload.js"></script>
+      <script src="js/script.js"></script>
+
+
+
+
+      
+  	
+
+	</body>
+</html>
