@@ -1,3 +1,3 @@
-# newbie-cloud-early-Node.js
-Just nebie cloud, early development / node.js, websocket, jquery.
-Старый проект ( обучался основам node.js )
+# early-cloud
+Just newbie cloud, early development / node.js, websocket, jquery.
+Старый проект ( обучение основам node.js )
